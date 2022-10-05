@@ -2,7 +2,9 @@ package com.example;
 import java.lang.Math;
 import java.io.*;
 
-
+/**
+*This is a class
+*/
 
 public class Greeter {
 
