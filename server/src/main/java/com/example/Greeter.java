@@ -1,14 +1,26 @@
-package com.example ;
-import javax.swing.JOptionPane ;
+package com.example;
+import java.lang.Math;
+import java.io.*;
+
+
+
+public class Greeter {
+
+
 
  
+  public Greeter() {
 
-public class Exemple {
- 
-  public static void main (String[] args) {
-    // todo
-    system.out.println("Hello World") ;
-    try {
-    }catch(Exception e) {
-    }
+
+
+ }
+
+
+
+ public final String greet(final String someone) {
+    return String.format("Hello babacar, %s!", someone);
   }
+
+
+
+}
